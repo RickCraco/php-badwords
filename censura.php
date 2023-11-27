@@ -27,7 +27,7 @@
 
         $paragrafoArray = explode(" ", $paragrafo);
         echo "<h2>Paragrafo originale</h2>";
-        echo "<p>Lunghezza: " . count($paragrafoArray) . "</p>";
+        echo "<p>Lunghezza: " . count($paragrafoArray) . "</p>"; 
     ?>
 
 </body>
