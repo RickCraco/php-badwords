@@ -7,5 +7,12 @@
 </head>
 <body>
     
+    <?php
+
+        $paragrafo = $_GET["paragraph"];
+        $parola = $_GET["censura"];
+
+    ?>
+
 </body>
 </html>
