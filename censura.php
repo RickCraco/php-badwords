@@ -21,11 +21,13 @@
 
         echo "<h2>Paragrafo censurato</h2>";
         echo "<p>$paragrafoCensurato</p>";
-        echo "<p>Lunghezza: " . strlen($paragrafoCensurato) . "<p>";
+        echo "<p>Lunghezza: " . strlen($paragrafoCensurato) . "</p>";
 
         //versione considerando quante parole ci sono in un paragrafo
 
-        
+        $paragrafoArray = explode(" ", $paragrafo);
+        echo "<h2>Paragrafo originale</h2>";
+        echo "<p>Lunghezza: " . count($paragrafoArray) . "</p>";
     ?>
 
 </body>
