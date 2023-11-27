@@ -22,6 +22,10 @@
         echo "<h2>Paragrafo censurato</h2>";
         echo "<p>$paragrafoCensurato</p>";
         echo "<p>Lunghezza: " . strlen($paragrafoCensurato) . "<p>";
+
+        //versione considerando quante parole ci sono in un paragrafo
+
+        
     ?>
 
 </body>
